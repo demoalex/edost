@@ -1,0 +1,2 @@
+module Articles::CollectionHelper
+end

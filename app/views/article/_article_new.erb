@@ -1,0 +1,9 @@
+<% @List=[{:name=>"О компании",:link=>"index"},{:name=>"FAQ",:link=>"faq"},
+		{:name=>"Контакты",:link=>"contacts"}] %>
+	<% for item in @List do%>
+		<%if @action==item[:link]%>
+			<li class="current"><span><%=image_tag "divider.gif"%></span><%=h item[:name]%></li>
+		<%else%>
+			<li><span><%=image_tag "divider.gif"%></span><%=link_to ((h item[:name]), :controller=>'article', :action=>item[:link])%><li>
+		<%end%>
+	<%end%>

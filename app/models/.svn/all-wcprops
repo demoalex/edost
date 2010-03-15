@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/getit/getit/!svn/ver/4/trunk/app/models
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/getit/getit/!svn/ver/1/trunk/app/models/user.rb
+END
+listing.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/getit/getit/!svn/ver/4/trunk/app/models/listing.rb
+END
+order.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/getit/getit/!svn/ver/3/trunk/app/models/order.rb
+END

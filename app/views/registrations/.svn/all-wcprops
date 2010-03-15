@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/getit/getit/!svn/ver/9/trunk/app/views/registrations
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/getit/getit/!svn/ver/9/trunk/app/views/registrations/edit.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/getit/getit/!svn/ver/14/trunk/app/views/registrations/new.html.erb
+END

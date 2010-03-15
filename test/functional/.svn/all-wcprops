@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/getit/getit/!svn/ver/4/trunk/test/functional
+END
+article_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/getit/getit/!svn/ver/4/trunk/test/functional/article_controller_test.rb
+END
+main_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/getit/getit/!svn/ver/4/trunk/test/functional/main_controller_test.rb
+END
+admin_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/getit/getit/!svn/ver/3/trunk/test/functional/admin_controller_test.rb
+END

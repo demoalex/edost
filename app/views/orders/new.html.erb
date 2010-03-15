@@ -1,0 +1,30 @@
+<%@page_title="Создание заказа"%>
+<% form_for(@order) do |f| %>
+  <% f.error_messages %>
+  <p>
+    <%= f.label 'Название' %><br />
+    <%= f.text_field :title %>
+  </p>
+    <p>
+    <%= f.label 'Количество' %><br />
+    <%= f.text_field :amount %>
+  </p>
+  <p>
+    <%= f.label 'Ссылка' %><br />
+    <%= f.text_field :link %>
+  </p>
+  <p>
+    <%= f.label 'Информация о заказе' %><br />
+    <%= f.text_area :vars, :rows=>10, :cols=>60 %>
+  </p>
+  <p>
+    <%= f.label 'Дополнительная информация' %><br />
+    <%= f.text_area :notes,:rows=>10, :cols=>60 %>
+  </p>
+  <p>
+  	<%=f.submit 'Создать' %>
+  	</p>
+<% end %>
+
+<%= link_to 'Информация', @order %> |
+<%= link_to 'К списку', :action=>'index' %>

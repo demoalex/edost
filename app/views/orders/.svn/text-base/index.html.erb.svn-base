@@ -1,0 +1,38 @@
+<%@page_title="Мои заказы"%>
+<table>
+		<% for order in @orders %>
+	<tr class="<%= decrypt_cycle(order.cycle) %>">
+		<% if current_user.role.to_i >2 %>
+		<td>
+			<%= h order.userid %>
+		</td>
+		<%end%>
+		<td>
+			<%= link_to(h(order.title),order) %>
+		</td>
+		<td>
+			<%= h order.amount %>
+		</td>
+		<td class="list-description">
+			<%=h truncate(order.link, :length=>40) %>
+		</td>
+		<td>
+			<%= order.created_at.strftime("%d.%m.%y %H:%M:%S") %>
+		</td>		
+		<td>
+			<%= number_to_currency(order.cost1+order.cost2+order.cost3) %>
+		<td>
+			<%= h decrypt_status(order.status) %>
+		</td>
+		<td class="list-actions">
+			<%= link_to 'Изменить', edit_order_path(order) %><br/>
+			<%if(order.status<1)%>
+			<%= link_to 'Удалить', order_path(order),
+			:confirm => 'Are you sure?',
+			:method => :delete %>
+			<%end%>
+</td>
+
+	</tr>
+	<% end %>
+</table>

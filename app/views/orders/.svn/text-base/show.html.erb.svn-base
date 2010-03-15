@@ -1,0 +1,43 @@
+<%@page_title="Информация о заказе"%>
+<p>
+  <b>Название:</b>
+  <%=h @order.title %>
+</p>
+<p>
+  <b>Ссылка:</b>
+  <%= link_to (h( @order.link), @order.link) %>
+</p>
+  <b>Количество:</b>
+  <%=h @order.amount %>
+</p>
+<p>
+  <b>Заказ создан:</b>
+  <%=h @order.created_at.strftime("%d.%m.%y %H:%M:%S") %>
+</p>
+<p>
+  <b>Информация о заказе:</b>
+  <%=h @order.vars %>
+</p>
+<p>
+  <b>Дополнительная информация:</b>
+  <%=h @order.notes %>
+</p>
+<p>
+<b>Цена:</b>
+  <%=h number_to_currency @order.cost1 %>
+</p>
+<p>
+  <b>Стоимость перевозки до склада:</b>
+  <%=h number_to_currency @order.cost2 %>
+</p>
+<p>
+  <b>Стоимость перевозки в Россию:</b>
+  <%=h number_to_currency @order.cost3 %>
+</p>
+<p>
+  <b>Статус заказа:</b>
+	<%=h decrypt_status @order.status %>
+</p>
+
+<%= link_to 'Изменить', edit_order_path(@order) %> |
+<%= link_to 'К списку', orders_path %>

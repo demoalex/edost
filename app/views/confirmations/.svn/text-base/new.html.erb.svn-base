@@ -1,0 +1,11 @@
+<h2>Отправить информацию о подтверждении ещё раз</h2>
+
+<% form_for resource_name, resource, :url => confirmation_path(resource_name) do |f| %>
+  <%= f.error_messages %>
+
+  <p><%= f.label :'Введите ваш e-mail' %><%= f.text_field :email %></p>
+
+  <p><%= f.submit "Отправить" %></p>
+<% end %>
+
+<%= render :partial => "shared/devise_links" %>

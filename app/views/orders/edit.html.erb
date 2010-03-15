@@ -1,0 +1,55 @@
+<%@page_title='Изменение заказа'%>
+
+<% form_for(@order) do |f| %>
+  <% f.error_messages %>
+  <p>
+    <%= f.label 'Ссылка' %><br />
+    <%= f.text_field :link %>
+  </p>
+  <p>
+    <%= f.label 'Информация о заказе' %><br />
+    <%= f.text_area :vars, :rows=>10, :cols=>60 %>
+  </p>
+  <p>
+    <%= f.label 'Дополнительная информация' %><br />
+    <%= f.text_area :notes,:rows=>10, :cols=>60 %>
+  </p>
+  <p>
+    <%= f.label 'Цена' %><br />
+    <%= f.text_field :cost1 %>
+  </p>  
+    <%if current_user.role>3 %>
+	  <p>
+	    <%= f.label 'Стоимость перевозки до склада' %><br />
+	    <%= f.text_field :cost2 %>
+	  </p>  
+	  <p>
+	    <%= f.label 'Стоимость перевозки в Россию' %><br />
+	    <%= f.text_field :cost3 %>
+	  </p>  
+	  <p>
+	    <%= f.label 'Реальная цена' %><br />
+	    <%= f.text_field :realCost1 %>
+	  </p>  
+	  <p>
+	    <%= f.label 'Реальная стоимость перевозки до склада' %><br />
+	    <%= f.text_field :realCost2 %>
+	  </p>  
+	  <p>
+	    <%= f.label 'Реальная стоимость перевозки в Россию' %><br />
+	    <%= f.text_field :realCost3 %>
+	  </p> 
+	  <p>
+	  	Изменить статус на <br>
+	  		<%for status in 0..5%>
+	  		<%= f.radio_button(:status,status)%><%=decrypt_status(status)%><br>
+	  		<%end%>
+	  </p>
+  	<% end %>
+  <p>
+  	<%=f.submit 'Изменить' %>
+  	</p>
+<% end %>
+
+<%= link_to 'Информация', @order %> |
+<%= link_to 'К списку', :action=>'index' %>

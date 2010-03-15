@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/getit/getit/!svn/ver/10/trunk/app/views/admin
+END
+enumerate.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/getit/getit/!svn/ver/8/trunk/app/views/admin/enumerate.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/getit/getit/!svn/ver/5/trunk/app/views/admin/index.html.erb
+END

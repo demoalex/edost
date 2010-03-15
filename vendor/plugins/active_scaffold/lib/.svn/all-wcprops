@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/lib
+END
+active_record_permissions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/lib/active_record_permissions.rb
+END
+paginator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/lib/paginator.rb
+END
+dhtml_confirm.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/lib/dhtml_confirm.rb
+END
+responds_to_parent.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/lib/responds_to_parent.rb
+END
+active_scaffold.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/lib/active_scaffold.rb
+END

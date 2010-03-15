@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/Rakefile
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/init.rb
+END
+.autotest
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/.autotest
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/environment.rb
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/CHANGELOG
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/install.rb
+END
+MIT-LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/MIT-LICENSE
+END
+install_assets.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/install_assets.rb
+END
+uninstall.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/uninstall.rb
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/README
+END

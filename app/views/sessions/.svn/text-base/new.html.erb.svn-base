@@ -1,0 +1,19 @@
+<%@page_title='Вход'%>
+<% form_for resource_name, resource, :url => session_path(resource_name) do |f| -%>
+<table>
+	<tr>  
+		<td><%= f.label :'Введите e-mail' %></td>
+		<td><%= f.text_field :email %></td>	
+	</tr><tr>
+		<td><%= f.label :'Введите Пароль' %></td>
+		<td><%= f.password_field :password %></td>		
+	</tr>
+<table>
+  <% if devise_mapping.rememberable? -%>
+    <p><%= f.check_box :remember_me %> <%= f.label :'Запомнить' %></p>
+  <% end -%>
+
+  <p><%= f.submit "Войти" %></p>
+<% end -%>
+
+<%= render :partial => "shared/devise_links" %>

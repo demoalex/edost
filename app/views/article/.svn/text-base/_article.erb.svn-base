@@ -1,0 +1,10 @@
+<% @List=[{:name=>"О компании",:link=>"index"},{:name=>"FAQ",:link=>"faq"},
+                {:name=>"Контакты",:link=>"contacts"}] %>
+        <div id="header">
+                <span class="headLogo">eBayDostavka.ru</span>
+                <div id="menu">
+                        <% for item in @List do%>
+                                | <%=link_to ((h item[:name]), :controller=>'article', :action=>item[:link])%>
+                                <% end %>|
+                </div>
+        </div>

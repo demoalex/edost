@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/test/config
+END
+show_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/test/config/show_test.rb
+END
+update_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/test/config/update_test.rb
+END
+create_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/test/config/create_test.rb
+END
+base_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/test/config/base_test.rb
+END
+list_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/test/config/list_test.rb
+END

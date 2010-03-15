@@ -1,0 +1,91 @@
+body { }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+pre {
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #000; }
+a:visited { color: #111; }
+a:hover { color: #fff; background-color:#000; }
+
+.fieldWithErrors {
+  padding: 2px;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+}
+
+#errorExplanation p {
+  margin-bottom: 0;
+  padding: 5px;
+}
+#notice {
+border: 2px solid red;
+padding: 1em;
+margin-bottom: 2em;
+font: bold smaller sans-serif;
+}
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* Styles for main page */
+#banner {
+background: white ;
+padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: 2px solid;
+font: small-caps 40px/40px "Times New Roman", serif;
+text-align: center;
+}
+#banner img {
+float: left;
+}
+#columns {
+}
+#main {
+margin-left: 13em;
+padding-top: 4ex;
+padding-left: 2em;
+background: white;
+}
+#side {
+float: left;
+padding-top: 1em;
+padding-left: 1em;
+padding-bottom: 1em;
+width: 8em;
+background: #fff ;
+}
+#side a {
+font-size: small;
+}
+h1 {
+font: 150% sans-serif;
+border-bottom: 3px dotted #77d ;
+}
+#store .entry form, #store .entry form div {
+display: inline;
+}

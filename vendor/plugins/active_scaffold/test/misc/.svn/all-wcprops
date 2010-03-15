@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/test/misc
+END
+configurable_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/test/misc/configurable_test.rb
+END
+lang_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/test/misc/lang_test.rb
+END
+active_record_permissions_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/test/misc/active_record_permissions_test.rb
+END
+attribute_params_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/test/misc/attribute_params_test.rb
+END
+constraints_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/test/misc/constraints_test.rb
+END
+finder_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/test/misc/finder_test.rb
+END
+pagination_helpers_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/test/misc/pagination_helpers_test.rb
+END

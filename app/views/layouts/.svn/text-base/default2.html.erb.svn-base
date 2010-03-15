@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title><%= 'eBayDostavka - '+ @page_title%></title>
+
+								
+										
+			
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+
+	<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<%= stylesheet_link_tag "default" , :media => "all" %>
+	<%= stylesheet_link_tag "lt" , :media => "all" %>
+	<%= yield :head %>
+</head>
+
+		
+	
+	
+	
+<body class="list">
+
+	<div class="veil">
+		
+	</div>
+
+	<div class="popupwrapper">
+		<div class="popupframe">
+			<a class="closeVeil" href="/" title="Закрыть">Закрыть X</a>
+			<div id="present">	
+			</div>		
+		</div>
+	</div>
+	<div id="cloud">
+		<div id="header">
+			<div id="logo">
+				<%=link_to image_tag("logo.gif",:class => 'logo'),:controller=>'article'%>	
+				<%=image_tag("sign15.gif", :alt=>"сохраняя спокойствие", :class=>"sign") %>
+			</div>	
+			<%=image_tag("phone.gif", :class=>"email", :alt=>"support@ebaydostavka.ru")%>
+			<div class="clear">	
+			</div>
+	
+			<div class="main-menu">
+				<ul class="menu">
+					<%= render :file=>'article/_article_new'%>
+				</ul>			
+			</div>
+		</div>
+		<div id="content">
+			<div id="navigation">
+				<ul id="second-menu">
+					<% if user_signed_in?%>
+						<li><%=link_to (decrypt_role(current_user.role)+' '+current_user.name, edit_user_registration_path)%></li>
+						<li><%=link_to "Новый заказ", :controller=>'orders', :action=>'new'%></li>
+						<li><%=link_to "Мои заказы", :controller=>'orders'%></li>
+						<li><%=link_to "Выйти", destroy_user_session_path, :method=>"GET"%></li>
+						<%else %>
+						<li><%=link_to ('Зарегистрироваться', new_user_registration_path)%></li>
+						<li><%=link_to ('Войти', new_user_session_path)%></li> 
+						<% end %>
+				</ul>
+
+				<div class="menu-flash">
+					<div id="menuflash">						
+					</div>					
+				</div>										
+			</div>
+			
+			<div class="wrapper">
+				<h1><%=@page_title%></h1>
+				<div class="content">
+					<content>					
+						<%=yield :layout%>
+					</content>
+				</div>
+			</div>
+
+			<div id="footer">
+				<div class="links">
+					<p class="address">support@ebaydostavka.ru</p>
+					<a href="/sitemap/">Карта сайта</a><span>|</span><%=link_to "Обратная связь", :controller=>'feedback'%>					
+				</div>
+				<div class="copy">
+					<p class="first"></p>
+					<noindex><p></p>						
+					</noindex>					
+				</div>		
+			</div>
+				
+		</div>		
+				
+	</div>
+</div>
+
+	<div style="visibility:hidden; position:absolute;top:0px;">
+	</div>
+</body>	</html>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/lib/active_scaffold
+END
+configurable.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/lib/active_scaffold/configurable.rb
+END
+attribute_params.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/lib/active_scaffold/attribute_params.rb
+END
+constraints.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/lib/active_scaffold/constraints.rb
+END
+finder.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/getit/getit/!svn/ver/3/trunk/vendor/plugins/active_scaffold/lib/active_scaffold/finder.rb
+END

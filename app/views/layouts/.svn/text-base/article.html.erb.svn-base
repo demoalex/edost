@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+ <html>
+	<%= javascript_include_tag :defaults %>
+	<%= active_scaffold_includes %>
+	<head>
+		<title>
+			<%= @page_title %>
+		</title>
+		<%= stylesheet_link_tag "depot" , :media => "all" %>
+	</head>
+	<body id="store">
+		<div id="container">
+			<% if user_signed_in?%>
+				<%=decrypt_role(current_user.role) 
+					when 4
+						'Administrator' 			
+					when 3
+						'Manager'
+					when 2
+						'User'
+					when 1
+						'Guest'
+					else
+						'Nobody'
+					end
+					%><br>
+			<%=link_to "logout", destroy_user_session_path, :method=>"GET"%>
+			<%else %>
+			<%=link_to ('join now', new_user_registration_path)%>
+			<%=link_to ('login', new_user_session_path)%> 
+			<% end %>
+			</div>
+	<div id="columns">
+	<div id="side">
+		<%= render :file=>'article/_article'%>
+	</div>
+	<div id="main">
+		<% if flash[:notice] -%>
+			<div id="flash_notice">
+				<%= flash[:notice] %>			
+			</div>
+		<% end -%>
+		<% if flash[:alert] -%>
+			<div id="flash_alert">
+				<%= flash[:alert] %>			
+			</div>
+		<% end -%>
+		<%= yield :layout %>
+	</div>
+	</body>
+ </html>

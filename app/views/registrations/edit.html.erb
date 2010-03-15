@@ -1,0 +1,33 @@
+<%@page_title='Изменение данных о пользователе'%>
+
+<% form_for resource_name, resource, :url => registration_path(resource_name), :html => { :method => :put } do |f| -%>
+  <%= f.error_messages %>
+<table>
+ <tr> 
+ 	<td><%= f.label :'e-mail' %></td>
+    <td><%= f.text_field :email %></td>
+</tr>
+	<td>
+		<dt><%= f.label :'Новый пароль' %></dt> 
+		<dd>(Оставьте пустым, если не хотите его изменить)</dd>
+	</td>
+	<td><%= f.password_field :password %></td>
+</tr>
+<tr>
+	<td><%= f.label :'Подтвердите пароль' %></td>
+	<td><%= f.password_field :password_confirmation %></td>
+</tr>
+<tr>
+	<td>
+		<dt><%= f.label :'Старый пароль' %> </dt>
+		<dd>(Необходимо ввести пароль, чтобы изменения вступили в силу)</dd>
+	</td>
+  	<td><%= f.password_field :current_password %></td>
+  </tr>
+</table>
+  <p><%= f.submit "Изменить" %></p>
+<% end -%>
+
+<p><%= link_to "Удалить", registration_path(resource_name), :confirm => "Вы уверены, что хотите удалить свой аккаунт?", :method => :delete %> аккаунт из системы.</p>
+
+<%= render :partial => "shared/devise_links" %>

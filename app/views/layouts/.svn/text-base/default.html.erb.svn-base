@@ -1,0 +1,39 @@
+<html>	
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title><%= @page_title%></title>
+	<%= stylesheet_link_tag "master" , :media => "all" %>
+	<div id="main">
+		<% if flash[:notice] -%>
+			<div id="flash_notice">
+				<%= flash[:notice] %>			
+			</div>
+		<% end -%>
+		<% if flash[:alert] -%>
+			<div id="flash_alert">
+				<%= flash[:alert] %>			
+			</div>
+		<% end -%>
+	</div>
+</head>
+<body>
+	<div id="header">
+			<% if user_signed_in?%>
+				<%=decrypt_role(current_user.role)%><br>
+			<%=link_to "Мои заказы", :controller=>'orders'%> |
+			<%=link_to "logout", destroy_user_session_path, :method=>"GET"%>
+			<%else %>
+			<%=link_to ('join now', new_user_registration_path)%> |
+			<%=link_to ('login', new_user_session_path)%> 
+			<% end %>
+	</div>
+	<div id="container">
+		<%= render :file=>'article/_article'%>
+		<div id="content">
+			<%=yield :layout%>
+		</div>
+		<div id="footer"></div>
+	</div>
+</body>
+</html>
+			

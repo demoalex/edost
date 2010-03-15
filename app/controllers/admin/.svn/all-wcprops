@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/getit/getit/!svn/ver/8/trunk/app/controllers/admin
+END
+order_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/getit/getit/!svn/ver/8/trunk/app/controllers/admin/order_controller.rb
+END
+user_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/getit/getit/!svn/ver/8/trunk/app/controllers/admin/user_controller.rb
+END

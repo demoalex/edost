@@ -1,0 +1,5 @@
+<%@page_title='Контакты'%>
+<div class="cItem">
+			<h2>Москва</h2>
+		<div>e-mail: <a href="mailto:support@ebaydostavka.ru">support@ebaydostavka.ru</a></div> 	
+	</div>

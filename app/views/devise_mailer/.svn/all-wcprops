@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/getit/getit/!svn/ver/1/trunk/app/views/devise_mailer
+END
+reset_password_instructions.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/getit/getit/!svn/ver/1/trunk/app/views/devise_mailer/reset_password_instructions.html.erb
+END
+confirmation_instructions.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/getit/getit/!svn/ver/1/trunk/app/views/devise_mailer/confirmation_instructions.html.erb
+END
+unlock_instructions.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/getit/getit/!svn/ver/1/trunk/app/views/devise_mailer/unlock_instructions.html.erb
+END

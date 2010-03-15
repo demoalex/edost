@@ -1,0 +1,77 @@
+10
+
+dir
+13
+https://svn.codespaces.com/getit/getit/trunk/test
+https://svn.codespaces.com/getit/getit
+
+
+
+2010-03-10T08:42:21.829727Z
+4
+a.mokrousov
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4c570744-5547-4408-b936-56dca9029359
+
+unit
+dir
+
+test_helper.rb
+file
+
+
+
+
+2010-03-14T18:55:46.000000Z
+e297614c72684d065aef001f86188732
+2010-03-01T10:12:33.061417Z
+1
+demo.alex
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1800
+
+performance
+dir
+
+functional
+dir
+
+integration
+dir
+
+fixtures
+dir
+

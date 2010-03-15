@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/getit/getit/!svn/ver/7/trunk/app/helpers
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/getit/getit/!svn/ver/7/trunk/app/helpers/application_helper.rb
+END
+article_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/getit/getit/!svn/ver/5/trunk/app/helpers/article_helper.rb
+END
+admin_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/getit/getit/!svn/ver/5/trunk/app/helpers/admin_helper.rb
+END

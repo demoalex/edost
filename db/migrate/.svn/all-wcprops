@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/getit/getit/!svn/ver/8/trunk/db/migrate
+END
+20100310131412_add_default.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/getit/getit/!svn/ver/5/trunk/db/migrate/20100310131412_add_default.rb
+END
+20100311081340_add_cycle_to_orders.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/getit/getit/!svn/ver/7/trunk/db/migrate/20100311081340_add_cycle_to_orders.rb
+END
+20100309104354_create_orders.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/getit/getit/!svn/ver/3/trunk/db/migrate/20100309104354_create_orders.rb
+END
+20100310145133_change_userid_to_int.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/getit/getit/!svn/ver/6/trunk/db/migrate/20100310145133_change_userid_to_int.rb
+END
+20100301002225_devise_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/getit/getit/!svn/ver/1/trunk/db/migrate/20100301002225_devise_create_users.rb
+END
+20100311140621_add_details_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/getit/getit/!svn/ver/14/trunk/db/migrate/20100311140621_add_details_to_users.rb
+END
+20100310102826_add_roles_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/getit/getit/!svn/ver/5/trunk/db/migrate/20100310102826_add_roles_to_users.rb
+END
+20100309104617_add_columns_to_orders.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/getit/getit/!svn/ver/3/trunk/db/migrate/20100309104617_add_columns_to_orders.rb
+END

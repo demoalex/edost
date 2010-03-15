@@ -1,0 +1,1209 @@
+body.vacancies #content .content, body.search #content .content,
+body.lists #content .content, body.contacts #content .content {
+	 width: auto;
+	 float: none;
+}
+
+body.vacancies #content .addition {
+	display: none;
+}
+
+
+body.error #banners div, body.error #navigation,
+body.error .banner, body.error .header,
+body.error .searchform, body.error .copyright,
+body.error #footer {
+	 display: none;
+}
+
+body.root h2 {
+	margin: 0 0 10px;
+	font-size: 130%;
+	font-weight: normal;
+	font-style: italic;
+	letter-spacing: -0.5px;
+}
+body.root #content {
+	width: 1000px;
+	padding: 0;
+}
+body.root #content .wrapper {
+	width: 100%;
+}
+body.root #content li {
+	 background-image: none;
+	 padding: 0;
+}
+body.root #root-flash {
+	width: 1000px;
+}
+body.root #header {
+	padding-bottom: 0;
+}
+
+/* user reports */
+body.user_reports #content .wrapper ul.news h3 {
+	margin: 0 0 10px 0;
+	font-size: 1em;
+}
+
+body.user_reports #content .wrapper ul.news p {
+	margin: 0 0 30px 20px;
+}
+
+/* news */
+body.news #content .wrapper ul {
+	overflow: hidden;
+	list-style: none;
+}
+body.news #content .wrapper .newslist {
+	 width: 470px;
+	 float: left;
+}
+body.news #content .wrapper ul.news {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+body.news #content .wrapper ul.news h3 {
+	margin: 0 0 10px 20px;
+	font-size: 1em;
+}
+body.news #content .wrapper ul.news p {
+	margin: 0 0 0 20px;
+}
+body.news #content .wrapper ul.news p.date {
+	margin: 0;
+	font-size: 0.8em;
+}
+body.news #content .wrapper ul.news h3 a {
+	color: #171d64;
+}
+body.news  #content .wrapper ul.news li {
+	padding: 0 0 15px 0;
+	overflow: hidden;
+	margin: 0;
+}
+body.news #content .additional {
+	float: right;
+	width: 244px;
+}
+body.news #content .additional .other li {
+	clear: both;
+	padding: 0 10px 30px 15px;
+	margin: 0;
+}
+body.news #content .additional .other h2 {
+	margin: 0 0 10px 0;
+	color: #000;
+}
+body.news #content .additional .other img {
+	display: block;
+}
+body.news #content .additional .other ul {
+	background: #f7f7f7;
+	border-left: 1px solid  #e8e8e9;
+	border-right: 1px solid #e8e8e9;
+	overflow: hidden;
+	padding: 0;
+}
+body.news #content .additional a.more {
+	font-size: 0.9em;
+}
+body.news #content .additional ul li.first {
+	border-bottom: 1px solid #e7e7e7;
+}
+body.news #content .additional ul li.second {
+	border-top: 1px solid #fff;
+	padding-top: 10px;
+}
+body.news #content .additional .archive {
+	padding: 30px 0 0 10px;
+}
+body.news #content .additional .archive a {
+	color: #aa112c;
+}
+body.news #content .additional .archive h3 {
+	margin: 0 0 10px 0;
+}
+body.news #content .additional .archive ul {
+	padding: 0;
+}
+body.news #content .additional .archive ul li {
+	margin: 0 0 5px 0;
+}
+body.news #content .additional .archive ul li ul {
+	margin: 0 0 0 10px;
+	display: none;
+}
+body.news #content .additional .archive li.by-year span.year {
+	color: #aa112c;
+	text-decoration: underline;
+	cursor: pointer;
+}
+body.news #content .additional .archive li.opened span.year {
+	color: #000;
+	text-decoration: none;
+}
+body.news #content .additional .archive li.opened ul {
+	display: block;
+}
+/* abonents*/
+body.abonents-inetpay form input.textfield {
+	display: inline;
+	margin: 0;
+}
+
+
+body.abonents-inetpay form .numbers label {
+	 display: block;
+	 clear: left;
+}
+
+body.abonents-inetpay form fieldset {
+	 padding: 0 0 20px 0;
+}
+
+body.abonents-inetpay form .inputlist label.three-col {
+	position: relative;
+	min-height: 120px;
+}
+
+body.abonents-inetpay form .inputlist label.three-col img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+}
+
+body.faq #content .content ul {
+/*	display: none; */
+	list-style: none;
+	margin: 5px 0 0 5px;
+}
+.collapseble ul, .collapseble ol {
+	display: block!important;
+}
+.collapseble ul li, .collapseble ol li {
+	margin: 0 0 5px 0!important;
+	padding: 0!important;
+}
+
+body.sitemap #content .content ul li {
+	color: #171D64;
+	list-style-type: none;
+	margin: 0;
+}
+body.sitemap #content .content ul {
+	margin: 10px 0 10px 20px;
+}
+body.sitemap #content .content ul li a {
+	color: #171D64;
+}
+body.sitemap #content .content ul li li {
+	list-style-type: disc;
+}
+
+body.sitemap #content .content ul li li li {
+	list-style-type: circle;
+	font-weight: normal;
+}
+body.sitemap #content .content ul li li li li {
+	list-style: none;
+}
+body.error #header .toplinks, body.error #header .personal,
+body.error #header .main-menu, body.error #header .phone {
+	display: none;
+}
+body.error .content input {
+	display: inline;
+}
+
+
+body.services #content .content ul {
+	list-style: none;
+	padding: 0;
+}
+body.services #content .content ul li {
+	clear: both;
+	margin: 0 0 30px 0;
+	overflow: hidden;
+}
+body.services #content .content ul img {
+	float: left;
+}
+body.services #content .content ul h2 {
+	margin: 0 0 5px 0;
+}
+body.services #content .content ul h3 {
+	margin: 0 0 5px 0;
+	font-size: 1em;
+	color: #000;
+	font-weight: bold;
+}
+body.services #content .content ul li {
+	overflow: hidden;
+}
+body.services #content .content ul div {
+	float: left;
+	padding: 0 0 0 14px;
+	width: 400px;
+}
+body.services #content .content ul div p {
+	line-height: 1.5em;
+	margin: 0;
+}
+body.services #content .content ul li ul {
+	margin: 0;
+	padding: 0;
+}
+body.services #content .content ul li ul li {
+	margin: 0 0 5px 0;
+}
+
+body.contacts #content .content a {
+	color: #aa112c;
+}
+body.contacts #content .content ul {
+	list-style: none;
+}
+body.contacts #content .content p {
+	margin: 0 0 15px 0;
+}
+body.contacts #content .content p span {
+	color: #8a8d8f;
+	font-size: 0.8em;
+}
+body.contacts div.contacts {
+	width: 473px;
+	float: left;
+}
+body.contacts div.schedule {
+	width: 244px;
+	float: right;
+	background: url(/i/bg/sch-bg.gif) 0 0 no-repeat;
+}
+body.contacts div.schedule h2 {
+	color: #000;
+	font-size: 1.2em;
+	padding: 10px 0 10px 17px;
+	margin: 0;
+	border-bottom: 1px solid #dedede;
+}
+body.contacts div.schedule ul {
+	background: url(/i/bg/sch-bot.gif) 0 100% no-repeat;
+	border-top: 1px solid #fff;
+	padding: 5px 0 10px 17px;
+	overflow: hidden;
+}
+body.contacts #content div.schedule ul li {
+	margin: 10px 0 0 0;
+}
+body.contacts #content div.schedule ul li span {
+	display: block;
+	float: left;
+	width: 124px;
+}
+body.search #content .content form input.textfield {
+	margin: 0 20px 0 0;
+}
+body.search #content .content form {
+	padding: 0 0 20px 0;
+}
+body.hookup #content .content .leftside {
+	width: 470px;
+	float: left;
+}
+body.hookup #content .content img.ill {
+	float: right;
+}
+body.abonents-inetpay .content form {
+	padding: 0 0 20px 0;
+}
+
+body.vacancies #content .content form textarea {
+	height: 100px;
+}
+form.calc {
+	padding: 9px 0;
+	background: url(/i/bg/table-border-top.gif) 0 0 no-repeat;
+}
+form.calc table {
+	margin: 0;
+	border-left: 1px solid #e8e8e9;
+	border-right: 1px solid #e8e8e9;
+	display: block;
+	table-layout: fixed;
+}
+form.calc table th,
+form.calc table td {
+	text-align: left;
+	padding: 5px 15px;
+}
+form.calc table th {
+	padding-top: 10px;
+	padding-bottom: 3px;
+}
+form.calc table tr.top th {
+	background: #f7f7f7;
+	font-weight: normal;
+	font-size: 10px;
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+form.calc table th span {
+	display: block;
+	color: #8a8d8f;
+}
+form.calc table tr.tariff strong {
+	display: block;
+}
+form.calc table tr.tariff label {
+	margin: 0 !important;
+}
+
+form.calc table tr.tariff td {
+	border-bottom: 1px solid #e8e8e9;
+	padding-top: 0;
+	padding-bottom: 15px;
+}
+form.calc table tr.add th {
+	color: #aa112c;
+	font-weight: normal;
+	padding-top: 8px;
+}
+#content .content form.calc table input.mini {
+	background: url(/i/inputs/textinput-mini2.gif) 0 0 no-repeat!important;
+	width: 31px!important;
+	text-align: center;
+}
+form.calc table td input.radiobutton {
+	float: left;
+	margin: 3px 0 0 0!important;
+}
+form.calc table td label {
+	display: block;
+	margin: 0 0 0 20px!important;
+}
+form.calc table tr.sum th {
+	background: #e8e8e9;
+	padding-top: 15px;
+	padding-bottom: 8px;
+}
+form.calc table tr.total td {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top: 1px solid #e8e8e9;
+	font-weight: bold;
+}
+form.calc img {
+	display: block;
+}
+form.calc table tr.eq td {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+form.calc table tr.even td {
+	background: #f8f8f8;
+}
+form.calc input.image {
+	display: block;
+	margin: 20px 0 0 0!important;
+}
+body.calc #content .content form textarea, body.hookup #content .content form textarea {
+	height: 100px;
+	overflow: auto;
+}
+.home-choose {
+	overflow: hidden;
+	margin: 20px 0 30px 0;
+}
+.home-choose li a {
+	display: block;
+	text-align: center;
+	margin: 6px 0 0 0;
+}
+
+.home-choose li.active {
+	background: url(/i/bg/arrowed.gif) 0 0 no-repeat;
+	text-shadow: 0px -1px 0px #424b63;
+
+}
+.home-choose li.active a {
+	color: #fff;
+}
+.home h3, .business h3, .how #content h3, .urtariffs .content h3 {
+	clear: both;
+	font-weight: bold;
+	color: #aa112c;
+	float: left;
+	width: 390px;
+	margin: 0;
+	padding: 0 0 0 25px;
+}
+.home ul.bullets, .business ul.bullets {
+	font-weight: bold;
+	margin: 0 0 15px;
+	width: 300px;
+	padding: 15px 0 0 55px;
+	clear: left;
+	float: none;
+}
+.home .price, .home .porting, .business .price, body.mobtel .price {
+	width: 234px;
+	height: 69px;
+	float: right;
+	background: url(/i/bg/bubble.gif);
+	padding: 17px 0 0 47px;
+	color: #aa112c;
+	font-size: 0.9em;
+	line-height: 1.05em;
+}
+body.mobtel .price {
+	background: url(/i/bg/bubble-mt.gif) 0 0 no-repeat;
+	width: 154px;
+	height: 49px;
+	padding: 15px 0 0 45px;
+}
+.home .price span, .home .porting span, .business .price span, body.mobtel .price span {
+	display: block;
+	font-weight: bold;
+	font-size: 1.7em;
+	line-height: 1.5em;
+}
+body.mobtel .price span {
+	font-size: 1.6em;
+	letter-spacing: -0.5px;
+	line-height: 1.2em;
+}
+body.mobtel .price span span {
+	font-size: 0.7em;
+	letter-spacing: 0;
+	display: inline;
+}
+.home .price span small, .home .porting span small, .business .price span small {
+	font-size: 0.7em;
+}
+.home #content .content p, .business #content .content p {
+	clear: none;
+	color: #7a7c7e;
+	width: 640px;
+	margin: 0 0 40px 0;
+	padding: 0 0 0 25px;
+}
+.home p strong, .business p strong {
+	color: #000;
+	display: block;
+	white-space: nowrap;
+}
+.home #equipment-flash {
+	float: left;
+}
+.home .advantage, body.mobtel .advantages, body.business .why {
+	float: right;
+	width: 269px;
+	background: #f4f5f5 url(/i/bg/advantage-bot.gif) 0 100% no-repeat;
+}
+body.business .why {
+	background-image: url(/i/bg/advantage-why-bot.gif);
+	width: 235px;
+}
+.home .advantage h4, body.mobtel .advantages h4, body.business .why h4 {
+	background: #dad9d9 url(/i/bg/advantage-top.gif) 0 0 no-repeat;
+	color: #fff;
+	padding: 5px 0 5px 26px;
+	font-weight: normal;
+}
+body.business .why h4 {
+	background-image: url(/i/bg/advantage-why-top.gif);
+}
+.home .advantage ul, body.mobtel .advantages ul, body.business .why ul {
+	margin: 10px 0 0 15px;
+	font-size: 0.95em;
+}
+.home .advantage ul li, body.mobtel .advantages ul li, body.business .why ul li {
+	padding: 0 10px 10px 23px;
+	margin: 0!important;
+	background: url(/i/icons/arrow5.gif) 0 3px no-repeat;
+}
+body.business .why ul li {
+	background: none;
+	padding-left: 10px;
+}
+.home .porting, .business .price {
+	color: #81888f;
+	background: none;
+}
+.home .equipment {
+	clear: both;
+	width: 293px;
+	float: left;
+	padding: 0 20px 0 25px;
+}
+.home .extra, .business .extra {
+	float: left;
+	width: 276px;
+}
+.home #content .content .equipment p, .home #content .content .extra p,
+.business #content .content .extra p {
+	font-size: 1.2em;
+	color: #000;
+	width: auto;
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+.home .equipment ul {
+	font-size: 0.9em;
+	color: #81888f;
+}
+.home .equipment ul li {
+	padding: 0 0 0 11px;
+	margin: 0 0 5px 0!important;
+	background: url(/i/icons/bul2.gif) 0 5px no-repeat;
+}
+.home #content .content {
+	overflow: hidden;
+}
+.home #content .content img.claim {
+	display: block;
+	clear: both;
+	margin: 40px 0 0 25px;
+}
+.business .why {
+	width: 244px;
+	float: right;
+	color: #717679;
+	margin-bottom: 30px;
+}
+.business .why h4 {
+	font-weight: normal;
+	color: #000 !important;
+	margin: 0;
+	font-size: 1.2em;
+}
+.business .why ul {
+	font-size: 0.9em;
+}
+.business .why ul li {
+	padding: 0 0 0 30px;
+}
+.business .why ul li span {
+	color: #000;
+	white-space: nowrap;
+}
+.business #content .content p {
+	clear: none;
+	width: auto;
+	margin-right: 250px;
+}
+.business #content dl.serv-block2 p {
+	clear: left;
+}
+.business dl.serv-block2, .urtariffs dl.serv-block2 {
+	clear: both;
+	position: relative;
+	overflow: hidden;
+	width: 714px;
+	margin: 20px 0 0 14px;
+	background: url(/i/bg/serv-block2-top.gif) 0 0 no-repeat;
+}
+.business dl.serv-block2 dt, .urtariffs dl.serv-block2 dt {
+	float: left;
+	color: #101877;
+	height: 67px;
+	position: relative;
+	font-size: 0.95em;
+	margin: 11px 15px 0 0;
+	z-index: 200;
+	left: 11px;
+	cursor: pointer;
+}
+.business dl.serv-block2 dt b, .urtariffs dl.serv-block2 dt b {
+	font-weight: normal;
+	border-bottom: 1px dashed #101877;
+	line-height: 1.4em;
+}
+.business dl.serv-block2 dt img, .urtariffs dl.serv-block2 dt img {
+	float: left;
+	visibility: hidden;
+}
+.business dl.serv-block2 dt.selected img, .urtariffs dl.serv-block2 dt.selected img {
+	visibility: visible;
+}
+.business dl.serv-block2 dt.selected, .urtariffs dl.serv-block2 dt.selected {
+	color: #fff;
+	text-decoration: none;
+}
+.business dl.serv-block2 dt.selected b, .urtariffs dl.serv-block2 dt.selected b {
+	font-size: 1.15em;
+	border: 0;
+}
+.business dl.serv-block2 dt span, .urtariffs dl.serv-block2 dt span {
+	display: block;
+	height: 52px;
+	float: left;
+	padding: 15px 8px 0 8px;
+	font-size: 1.05em;
+}
+.business dl.serv-block2 dt.big-text span, .urtariffs dl.serv-block2 dt.big-text span {
+	padding-top: 5px;
+	height: 62px;
+}
+.business dt.selected span, .urtariffs dt.selected span {
+	background: url(/i/bg/tab-mid2.gif) top center no-repeat;
+}
+.business dl.serv-block2 dd, .urtariffs dl.serv-block2 dd {
+	position: relative;
+	float: right;
+	display: none;
+	width: 712px;
+	border-left: 1px solid #c8cdd4;
+	border-right: 1px solid #c8cdd4;
+	margin: 67px 0 0 -714px;
+}
+.business dl.serv-block2 dd.selected, .urtariffs dl.serv-block2 dd.selected {
+	display: block;
+}
+.business dl.serv-block2 dd img.topcorn, dl.serv-block dd img.botcorn,
+.urtariffs dl.serv-block2 dd img.topcorn {
+	display: block;
+	position: absolute;
+	left: -1px;
+	z-index: 100;
+}
+.business dl.serv-block2 dd img.botcorn, .urtariffs dl.serv-block2 dd img.botcorn {
+	bottom: 0;
+}
+.business dl.serv-block2 dd .descr,
+.business dl.serv-block2 dd .info {
+	padding: 26px 26px 5px 26px;
+	overflow: hidden;
+	zoom: 1;
+}
+.business dl.serv-block2 dd .info {
+	background: url(/i/bg/info.gif) 0 100% repeat-x;
+	padding: 26px;
+}
+.business #content .content img.botcorn, .urtariffs #content .content img.botcorn {
+	display: block;
+	position: relative;
+	margin: -81px 0 0 14px;
+}
+.business .price {
+	width: 210px;
+	padding: 10px 0 0 0;
+	height: auto;
+}
+.business dl.serv-block2 dd .descr h4 {
+	float: left;
+	font-size: 1.2em;
+	margin: 0 0 10px 0;
+}
+.business dl.serv-block2 dd .descr p {
+	margin: 0!important;
+	width: 420px!important;
+	padding: 0!important;
+}
+.business dl.serv-block2 dd .descr p span {
+	color: #aa112c;
+}
+.business dl.serv-block2 dd .info img {
+	float: left;
+}
+.business dl.serv-block2 .alarm .start {
+	padding: 0 0 0 20px;
+	width: 225px;
+	float: left;
+}
+.business dl.serv-block2 .start h4 {
+	font-size: 1.2em;
+	line-height: 1.05em;
+}
+.business dl.serv-block2 .start ul {
+	margin: 15px 0 0 0;
+}
+.business dl.serv-block2 .start ul li {
+	background: url(/i/icons/arrow6.gif) 0 4px no-repeat;
+	padding: 0 0 0 19px;
+	margin: 0 0 5px 0!important;
+	font-size: 1.2em;
+	line-height: 1em;
+}
+.business dl.serv-block2 dd .info .price span {
+	color: #aa112c;
+	margin: 0 0 15px 0;
+}
+.business dl.serv-block2 .secure .start {
+	padding: 20px 0 0 0;
+	width: 650px;
+	clear: both;
+}
+.business dl.serv-block2 .secure .start ul {
+	width: 290px;
+	float: left;
+}
+.business p.limitation {
+	float: none!important;
+	margin: 20px 0 50px 5px!important;
+}
+/*.business p.limitation a {
+	color: #058cd0;
+}*/
+.business .extra {
+	padding: 0 0 0 90px;
+}
+.home .extra span, .business .extra span {
+	display: block;
+	color: #81888f;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	margin: 20px 0 0 10px;
+}
+
+.business #content .content img.claim {
+	display: block;
+	float: left;
+	margin: 0 0 0 30px;
+}
+
+body.how #content #navigation {
+	display: none;
+}
+body.how #content .wrapper {
+	width: 848px;
+	padding: 0 0 0 34px;
+	float: left;
+}
+body.how #content .wrapper h1 {
+	margin: 0 0 0 25px;
+}
+body.how #content .wrapper .main-text {
+	padding: 30px 0 30px 53px;
+	width: 630px;
+}
+body.how #content .wrapper img.float {
+	float: left;
+	margin: 0 30px 30px 30px;
+}
+body.how #content .wrapper h3 {
+	clear: both;
+	float: none;
+	width: 490px;
+	padding: 0 0 0 52px;
+}
+body.how #content #sys-content {
+	padding: 20px 0 0 0;
+}
+body.how #content #sys-content ul.icons {
+	margin: 30px 0 0 52px;
+}
+body.how #content #sys-content ul.icons li {
+	padding: 0 0 0 37px;
+	position: relative;
+}
+body.how #content #sys-content ul.icons li img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+body.how #content #sys-content p {
+	margin: 30px 0 0 52px;
+}
+body.how #content .content div.left-text {
+	width: 500px;
+}
+#content .content div.right-text small {
+	margin: 0 0 15px 12px;
+}
+
+
+
+
+
+
+/* new ur tariffs */
+
+.urtariffs_new table {
+	table-layout: auto;
+	font-size: 0.8em;
+	margin: 20px 0 0 0;
+}
+.urtariffs_new table th, .urtariffs_new table td {
+	padding: 5px 13px;
+	border-right: 1px solid #d3d3d3;
+	text-align: center;
+	font-size: 1.2em;
+}
+.urtariffs_new table th {
+	background: #f1f1f1;
+	font-size: 1.05em;
+	padding: 10px 13px;
+}
+.urtariffs_new table td {
+	border-bottom: 1px solid #e4e7ea;
+}
+.urtariffs_new table .first, .urtariffs_new table .last {
+	text-align: left;
+}
+.urtariffs_new table .last {
+	border-right: 0;
+}
+
+/* */
+
+
+
+
+
+
+
+
+.urtariffs dl.serv-block2 dd table {
+	table-layout: auto;
+	font-size: 0.8em;
+	margin: 20px 0 0 0;
+}
+.urtariffs dl.serv-block2 dd table th, .urtariffs dl.serv-block2 dd table td {
+	padding: 5px 13px;
+	border-right: 1px solid #d3d3d3;
+	text-align: center;
+	font-size: 1.2em;
+}
+.urtariffs dl.serv-block2 dd table th {
+	background: #f1f1f1;
+	font-size: 1.05em;
+	padding: 10px 13px;
+}
+.urtariffs dl.serv-block2 dd table td {
+	border-bottom: 1px solid #e4e7ea;
+}
+.urtariffs dl.serv-block2 dd table .first, .urtariffs dl.serv-block2 dd table .last {
+	text-align: left;
+}
+.urtariffs dl.serv-block2 dd table .last {
+	border-right: 0;
+}
+.urtariffs dl.serv-block2, .urtariffs #content .content img.botcorn {
+	margin-left: 0;
+}
+.urtariffs .content p {
+	margin: 20px 0 0 10px;
+}
+.urtariffs .content h3 {
+	width: auto;
+	padding: 0;
+	margin: 20px 0 40px 0;
+}
+
+body.mobtel .mobtel {
+	overflow: hidden;
+}
+body.mobtel .mobtel-description {
+	margin-bottom: 15px;
+}
+body.mobtel .aside {
+	width: 276px;
+	margin: 0 0 0 -276px;
+	position: relative;
+	float: right;
+	overflow: hidden;
+}
+body.mobtel .common {
+	margin: 0 276px 0 0;
+}
+body.mobtel .price {
+	float: left;
+}
+body.mobtel h2,
+body.phouse h2,
+h2.additional {
+	color: #aa112c;
+	font-weight: bold;
+	margin: 0 29px 15px 22px;
+	font-size: 137%;
+}
+h2.additional {
+	font-size: 120%;
+}
+body.mobtel .common p,
+.mobtel-cases p {
+	margin: 0 29px 0 23px;
+	color: #54585a;
+}
+.mobtel-cases p {
+	margin-left: 0;
+}
+body.mobtel .mobtel-advantages .common img {
+	width: 444px;
+	height: 244px;
+	display: block;
+}
+body.mobtel .advantages {
+	width: 251px;
+	background-image: url(/i/bg/advantage-mobtel-bot.gif);
+	float: left;
+	margin-left: 11px;
+	display: inline;
+	margin-bottom: 38px;
+}
+body.mobtel .advantages h4 {
+	background-image: url(/i/bg/advantage-mobtel-top.gif);
+}
+body.mobtel .po {
+	padding: 0 45px;
+	font-size: .9em;
+	line-height: 1.25em;
+}
+body.mobtel .po a {
+	color: #058cd0;
+}
+body.mobtel .po span {
+	display: block;
+	margin-top: 5px;
+	color: #54585a;
+	line-height: 1.25em;
+}
+body.mobtel h3 {
+	color: #aa112c;
+	font-weight: bold;
+	margin: 0 0 20px 54px;
+}
+body.mobtel .mobtel-howitworks {
+	padding: 27px 170px 0 0;
+}
+body.mobtel .mobtel-howitworks ul {
+	margin-bottom: 56px;
+}
+body.mobtel .mobtel-howitworks ul li {
+	margin-left: 55px !important;
+	padding: 0 0 3px;
+	color: #54585a;
+	line-height: 1.25em;
+}
+body.mobtel .mobtel-howitworks ul li span {
+	float: left;
+	display: inline;
+	margin: 4px 11px -27px -34px;
+	width: 23px;
+	height: 23px;
+	background: url(/i/mobtel/numbers.gif) 0 0 no-repeat;
+}
+body.mobtel .mobtel-howitworks ul li.item2 span {
+	background-position: 0 -23px;
+}
+body.mobtel .mobtel-howitworks ul li.item3 span {
+	background-position: 0 -46px;
+}
+body.mobtel .mobtel-howitworks p {
+	margin: 30px 0 0 26px;
+	font-size: .9em;
+	color: #54585a;
+	line-height: 1.25em;
+	width: 375px;
+}
+p.btn-connect {
+	margin: 0 0 0 26px !important;
+}
+body.mobtel .mobtel-howitworks p a {
+	color: #058cd0;
+}
+.mobtel-cases {
+	overflow: hidden;
+	margin: 0 0 41px 23px;
+}
+.mobtel-cases p {
+	margin: 0 100px 36px 0;
+}
+.mobtel-cases ul {
+	width: 337px;
+	float: left;
+}
+.mobtel-cases ul li {
+	padding: 0 21px;
+	background: url(/i/mobtel/list-dot.gif) 7px 6px no-repeat;
+	color: #54585a;
+	margin: 0 0 11px !important;
+}
+.mobtel-map {
+	overflow: hidden;
+	zoom: 1;
+	padding-top: 35px;
+	margin-bottom: 45px;
+}
+.mobtel-map .pic-wrapper {
+	overflow: hidden;
+	width: 339px;
+	margin: 0 -339px 0 0;
+	float: left;
+}
+.mobtel-map .text-wrapper {
+	margin: 0 0 0 366px;
+}
+.mobtel-map .text-wrapper p {
+	color: #54585a;
+	margin: 0 50px 26px 0;
+	line-height: 1.25em;
+}
+.mobtel-map .text-wrapper p.noservice {
+	color: #969da0;
+	font-size: .9em;
+}
+.mobtel-po {
+	margin: 0 0 0 23px;
+	overflow: hidden;
+	zoom: 1;
+}
+.mobtel-po p {
+	color: #54585a;
+	margin-right: 80px;
+}
+.mobtel-po p.link-download {
+	margin: 39px 0 27px;
+	font-weight: bold;
+}
+.mobtel-po ul {
+	overflow: hidden;
+	zoom: 1;
+	margin-bottom: 0px;
+}
+.mobtel-po ul li {
+	float: left;
+	width: 78px;
+	text-align: center;
+}
+.mobtel-po ul li.android {
+	width: 154px;
+}
+
+.mobtel-po ul li.winmob {
+	width: 147px;
+}
+
+.mobtel-po ul li.blackberry {
+	width: 165px;
+}
+
+.mobtel-po ul li span {
+	display: block;
+	height: 60px;
+	background: url(/i/mobtel/po-logos.gif) 0 0 no-repeat;
+	width: 73px;
+	margin: 0 auto 18px;
+}
+.mobtel-po ul li.android span {
+	width: 66px;
+	background-position: 0 -60px;
+}
+.mobtel-po ul li.winmob span {
+	width: 104px;
+	background-position: 0 -120px;
+}
+.mobtel-po ul li.blackberry span {
+	width: 99px;
+	background-position: 0 -180px;
+}
+.mobtel-po ul li a {
+	color: #269bd6;
+}
+
+body.popup {
+	width: 100%;
+	padding: 0px;
+	font-size: 0.8em;
+}
+
+body.popup p, body.popup h1, body.popup h2, body.popup h3, body.popup h4, body.popup ul {
+	padding: 0;
+	margin: 0 0 15px 0;
+}
+
+body.popup li {
+	list-style: disc inside;
+}
+
+body.popup .equipment-list li {
+	list-style: none outside;
+	clear: both;
+	padding: 20px 0;
+}
+
+body.popup .equipment-list li img {
+	float: left;
+	margin-right: -100px;
+}
+
+body.popup .equipment-list li p {
+	margin: 0 0 20px 150px;
+}
+
+.ur-list ul li {
+	padding: 0 21px;
+	background: url(/i/mobtel/list-dot.gif) 7px 6px no-repeat;
+	color: #54585a;
+	margin: 0 0 5px !important;
+}
+
+.ur-list p {
+	color: #54585a;
+}
+
+
+body.root #indexnews {
+	text-align: left;
+	margin-top: 15px;
+	padding: 0px;
+	border:0;
+	width: 100%;
+}
+
+body.root #indexnews #side-a {
+	float: left;
+	width: 647px;
+	padding-left: 66px;
+	padding-right: 65px;
+}
+
+body.root #indexnews #side-b {
+	float: right;
+	width: 195px;
+	padding-right: 27px;
+}
+
+body.root #indexnews #indexnewsicon {
+	margin: 0 0 0 0;
+}
+
+body.root #indexnews #indexdivider {
+	border-bottom:1px solid #020411;
+	height:1px;
+	margin: 5px 0 0 30px;
+}
+
+body.root #indexnews #wrappernews ul {
+	overflow: hidden;
+	list-style: none;
+}
+
+body.root #indexnews ul.news {
+	margin: 15px 0 0 30px;
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+}
+
+body.root #indexnews ul.news h3 {
+	margin: 0 0 10px 10px;
+	font-size: 1em;
+}
+
+body.root #indexnews ul.news h3 a {
+	text-decoration: none;
+	color: #171d64;
+}
+
+body.root #indexnews p.date {
+	margin: 0;
+	font-size: 0.8em;
+}

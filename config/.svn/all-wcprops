@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/getit/getit/!svn/ver/7/trunk/config
+END
+database_example.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/getit/getit/!svn/ver/1/trunk/config/database_example.yml
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/getit/getit/!svn/ver/7/trunk/config/routes.rb
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/getit/getit/!svn/ver/1/trunk/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/getit/getit/!svn/ver/1/trunk/config/environment.rb
+END
